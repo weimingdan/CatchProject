@@ -48,7 +48,14 @@ SCENARIO("DBB style test case", "[bdd]")
 		{
 			THEN("the result is People")
 			{
-				REQUIRE(cc.add(1, 2) == 2);
+				REQUIRE(cc.add(1, 2) == 3);
+			}
+		}
+		WHEN("the number is 3 and 4")
+		{
+			THEN("the result is 7")
+			{
+				REQUIRE(cc.add(3, 4) == 7);
 			}
 		}
 	}
