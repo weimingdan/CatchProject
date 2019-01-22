@@ -62,6 +62,7 @@ SCENARIO("DBB style test case", "[bdd]")
 }
 
 
+
 class Warehouse
 {
 public:
