@@ -70,6 +70,7 @@ public:
 	virtual void remove(const std::string& name, size_t amount) = 0;
 };
 
+
 class Order
 {
 public:
