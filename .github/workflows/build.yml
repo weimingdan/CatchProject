@@ -19,4 +19,9 @@ jobs:
       uses: warrenbuckley/Setup-MSBuild@v1
     - name: Run MSBuild
       run: msbuild Project1.sln /t:Rebuild /p:Configuration=Release /p:Platform=x86
+    - name: Codecov
+      uses: codecov/codecov-action@v1.0.0
+      with:
+        token: ${{secrets.CODECOV_TOKEN}}
+
 
