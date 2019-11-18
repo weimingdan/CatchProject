@@ -116,3 +116,8 @@ TEST_CASE("test1","[cc]")
 		REQUIRE(order.is_filled());
 	}
 }
+
+TEST_CASE("test2", "[this tag]")
+{
+	REQUIRE(true);
+}
